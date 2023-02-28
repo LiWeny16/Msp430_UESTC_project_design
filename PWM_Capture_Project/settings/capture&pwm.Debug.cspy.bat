@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Learning\iarformsp430\common\bin\cspybat" -f "C:\Learning\iarformsp430\msp430(my)\430\4\PWM\settings\capture&pwm.Debug.general.xcl" --backend -f "C:\Learning\iarformsp430\msp430(my)\430\4\PWM\settings\capture&pwm.Debug.driver.xcl" 
+"C:\Learning\iarformsp430\common\bin\cspybat" -f "C:\Learning\sample\synchronous github\Msp430_project\PWM_Capture_Project\settings\capture&pwm.Debug.general.xcl" --backend -f "C:\Learning\sample\synchronous github\Msp430_project\PWM_Capture_Project\settings\capture&pwm.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Learning\iarformsp430\common\bin\cspybat" -f "C:\Learning\iarformsp430\msp430(my)\430\4\PWM\settings\capture&pwm.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Learning\iarformsp430\msp430(my)\430\4\PWM\settings\capture&pwm.Debug.driver.xcl" 
+"C:\Learning\iarformsp430\common\bin\cspybat" -f "C:\Learning\sample\synchronous github\Msp430_project\PWM_Capture_Project\settings\capture&pwm.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Learning\sample\synchronous github\Msp430_project\PWM_Capture_Project\settings\capture&pwm.Debug.driver.xcl" 
 
 @echo off 
 :end

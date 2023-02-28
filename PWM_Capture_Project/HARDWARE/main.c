@@ -49,10 +49,10 @@ void  main( )
  // LCD_ShowString(0,2,string3,12);
   //LCD_ShowString(112,0,string4,12);
   //LCD_ShowString(112,2,string5,12);
-  LCD_ShowString(2,2,string2,12);
-  LCD_ShowString(2,3,string3,12);
-  LCD_ShowString(110,2,string4,12);
-  LCD_ShowString(110,3,string5,12);
+  LCD_ShowString(2,3,string2,12);
+  LCD_ShowString(2,4,string3,12);
+  LCD_ShowString(110,3,string4,12);
+  LCD_ShowString(110,4,string5,12);
   while(1)
   {
     key = KeyScan();
@@ -93,9 +93,9 @@ void  main( )
      
      fre=500000/(float)period+1;  //计算频率
      
-     LCD_ShowNum(87,2,(unsigned long)fre,3,12); //显示占空比和频率  
+     LCD_ShowNum(87,3,(unsigned long)fre,3,12); //显示占空比和频率  
      //LCD_ShowNum(87,5,(unsigned long)duty,3,12); 
-     LCD_ShowNum(87,3,duty_num,3,12); 
+     LCD_ShowNum(87,4,duty_num,3,12); 
       
       flag=0;
       TA1CCTL1|=CCIE;

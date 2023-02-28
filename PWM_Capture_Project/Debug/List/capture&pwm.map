@@ -2,32 +2,36 @@
 #                                                                              #
 #      IAR Universal Linker V6.4.6.89                                          #
 #                                                                              #
-#           Link time     =  28/Feb/2023  23:07:21                             #
+#           Link time     =  28/Feb/2023  23:31:00                             #
 #           Target CPU    =  MSP430                                            #
-#           List file     =  C:\Learning\iarformsp430\msp430(my)\430\4\PWM\Deb #
-#                            ug\List\capture&pwm.map                           #
-#           Output file 1 =  C:\Learning\iarformsp430\msp430(my)\430\4\PWM\Deb #
-#                            ug\Exe\capture&pwm.d43                            #
+#           List file     =  "C:\Learning\sample\synchronous github\Msp430_pro #
+#                            ject\PWM_Capture_Project\Debug\List\capture&pwm.m #
+#                            ap"                                               #
+#           Output file 1 =  "C:\Learning\sample\synchronous github\Msp430_pro #
+#                            ject\PWM_Capture_Project\Debug\Exe\capture&pwm.d4 #
+#                            3"                                                #
 #                            Format: ubrof10                                   #
 #                            UBROF version 10.0.6                              #
 #                            Using library modules for C-SPY (-rt)             #
-#           Command line  =  -f C:\Users\Onion\AppData\Local\Temp\EW263C.tmp   #
-#                            (C:\Learning\iarformsp430\msp430(my)\430\4\PWM\De #
-#                            bug\Obj\clk.r43                                   #
-#                            C:\Learning\iarformsp430\msp430(my)\430\4\PWM\Deb #
-#                            ug\Obj\IIC.r43                                    #
-#                            C:\Learning\iarformsp430\msp430(my)\430\4\PWM\Deb #
-#                            ug\Obj\key.r43                                    #
-#                            C:\Learning\iarformsp430\msp430(my)\430\4\PWM\Deb #
-#                            ug\Obj\main.r43                                   #
-#                            C:\Learning\iarformsp430\msp430(my)\430\4\PWM\Deb #
-#                            ug\Obj\timer.r43                                  #
+#           Command line  =  -f C:\Users\Onion\AppData\Local\Temp\EWCDD1.tmp   #
+#                            ("C:\Learning\sample\synchronous github\Msp430_pr #
+#                            oject\PWM_Capture_Project\Debug\Obj\clk.r43"      #
+#                            "C:\Learning\sample\synchronous github\Msp430_pro #
+#                            ject\PWM_Capture_Project\Debug\Obj\IIC.r43"       #
+#                            "C:\Learning\sample\synchronous github\Msp430_pro #
+#                            ject\PWM_Capture_Project\Debug\Obj\key.r43"       #
+#                            "C:\Learning\sample\synchronous github\Msp430_pro #
+#                            ject\PWM_Capture_Project\Debug\Obj\main.r43"      #
+#                            "C:\Learning\sample\synchronous github\Msp430_pro #
+#                            ject\PWM_Capture_Project\Debug\Obj\timer.r43"     #
 #                            -o                                                #
-#                            C:\Learning\iarformsp430\msp430(my)\430\4\PWM\Deb #
-#                            ug\Exe\capture&pwm.d43                            #
+#                            "C:\Learning\sample\synchronous github\Msp430_pro #
+#                            ject\PWM_Capture_Project\Debug\Exe\capture&pwm.d4 #
+#                            3"                                                #
 #                            -l                                                #
-#                            C:\Learning\iarformsp430\msp430(my)\430\4\PWM\Deb #
-#                            ug\List\capture&pwm.map                           #
+#                            "C:\Learning\sample\synchronous github\Msp430_pro #
+#                            ject\PWM_Capture_Project\Debug\List\capture&pwm.m #
+#                            ap"                                               #
 #                            -xms -IC:\Learning\iarformsp430\430\LIB\ -f       #
 #                            C:\Learning\iarformsp430\430\config\linker\lnk430 #
 #                            f5529.xcl                                         #
@@ -141,7 +145,7 @@ Absolute parts
            ?CPU30_OFFSET           0002 
     *************************************************************************
 
-  FILE NAME : C:\Learning\iarformsp430\msp430(my)\430\4\PWM\Debug\Obj\clk.r43
+  FILE NAME : C:\Learning\sample\synchronous github\Msp430_project\PWM_Capture_Project\Debug\Obj\clk.r43
   PROGRAM MODULE, NAME : clk
 
   SEGMENTS IN THE MODULE
@@ -227,7 +231,7 @@ DATA16_AN
 
     *************************************************************************
 
-  FILE NAME : C:\Learning\iarformsp430\msp430(my)\430\4\PWM\Debug\Obj\IIC.r43
+  FILE NAME : C:\Learning\sample\synchronous github\Msp430_project\PWM_Capture_Project\Debug\Obj\IIC.r43
   PROGRAM MODULE, NAME : IIC
 
   SEGMENTS IN THE MODULE
@@ -393,7 +397,7 @@ DATA16_C
 
     *************************************************************************
 
-  FILE NAME : C:\Learning\iarformsp430\msp430(my)\430\4\PWM\Debug\Obj\key.r43
+  FILE NAME : C:\Learning\sample\synchronous github\Msp430_project\PWM_Capture_Project\Debug\Obj\key.r43
   PROGRAM MODULE, NAME : key
 
   SEGMENTS IN THE MODULE
@@ -479,7 +483,7 @@ DATA16_Z
 
     *************************************************************************
 
-  FILE NAME : C:\Learning\iarformsp430\msp430(my)\430\4\PWM\Debug\Obj\main.r43
+  FILE NAME : C:\Learning\sample\synchronous github\Msp430_project\PWM_Capture_Project\Debug\Obj\main.r43
   PROGRAM MODULE, NAME : main
 
   SEGMENTS IN THE MODULE
@@ -589,7 +593,7 @@ DATA16_ID
 
     *************************************************************************
 
-  FILE NAME : C:\Learning\iarformsp430\msp430(my)\430\4\PWM\Debug\Obj\timer.r43
+  FILE NAME : C:\Learning\sample\synchronous github\Msp430_project\PWM_Capture_Project\Debug\Obj\timer.r43
   PROGRAM MODULE, NAME : timer
 
   SEGMENTS IN THE MODULE

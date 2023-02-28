@@ -23,9 +23,9 @@ param([String]$debugfile = "");
 
 if ($debugfile -eq "")
 {
-& "C:\Learning\iarformsp430\common\bin\cspybat" -f "C:\Learning\iarformsp430\msp430(my)\430\4\PWM\settings\capture&pwm.Debug.general.xcl" --backend -f "C:\Learning\iarformsp430\msp430(my)\430\4\PWM\settings\capture&pwm.Debug.driver.xcl" 
+& "C:\Learning\iarformsp430\common\bin\cspybat" -f "C:\Learning\sample\synchronous github\Msp430_project\PWM_Capture_Project\settings\capture&pwm.Debug.general.xcl" --backend -f "C:\Learning\sample\synchronous github\Msp430_project\PWM_Capture_Project\settings\capture&pwm.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Learning\iarformsp430\common\bin\cspybat" -f "C:\Learning\iarformsp430\msp430(my)\430\4\PWM\settings\capture&pwm.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Learning\iarformsp430\msp430(my)\430\4\PWM\settings\capture&pwm.Debug.driver.xcl" 
+& "C:\Learning\iarformsp430\common\bin\cspybat" -f "C:\Learning\sample\synchronous github\Msp430_project\PWM_Capture_Project\settings\capture&pwm.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Learning\sample\synchronous github\Msp430_project\PWM_Capture_Project\settings\capture&pwm.Debug.driver.xcl" 
 }

@@ -1,8 +1,8 @@
-"C:\Learning\iarformsp430\msp430(my)\430\4\PWM\HARDWARE\clk.c"
+"C:\Learning\sample\synchronous github\Msp430_project\PWM_Capture_Project\HARDWARE\clk.c"
 -std=c99
 -ferror-limit=100
 -I
-C:\Learning\iarformsp430\msp430(my)\430\4\PWM
+C:\Learning\sample\synchronous github\Msp430_project\PWM_Capture_Project
 -I
 C:\Learning\iarformsp430\430\inc\dlib
 -I
@@ -10,7 +10,7 @@ C:\Learning\iarformsp430\430\inc
 -I
 C:\Learning\iarformsp430\430\inc\dlib\c
 -I
-C:\Learning\iarformsp430\msp430(my)\430\4\PWM
+C:\Learning\sample\synchronous github\Msp430_project\PWM_Capture_Project
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
