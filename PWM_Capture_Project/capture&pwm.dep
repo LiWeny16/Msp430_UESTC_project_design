@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>1289308139</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$TOOLKIT_DIR$\config\linker\multiplier32.xcl</file>
+            <file>$PROJ_DIR$\HARDWARE\timer.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\capture&amp;pwm.d43</file>
+            <file>$PROJ_DIR$\HARDWARE\clk.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\clk.r43</file>
+            <file>$PROJ_DIR$\HARDWARE\key.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\key.pbi</file>
+            <file>$PROJ_DIR$\HARDWARE\timer.c</file>
+            <file>$TOOLKIT_DIR$\inc\in430.h</file>
+            <file>$PROJ_DIR$\HARDWARE\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\IIC.r43</file>
+            <file>$TOOLKIT_DIR$\inc\msp430f5529.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\clk.pbi</file>
+            <file>$PROJ_DIR$\HARDWARE\key.h</file>
+            <file>$PROJ_DIR$\HARDWARE\clk.c</file>
+            <file>$PROJ_DIR$\HARDWARE\font.h</file>
+            <file>$PROJ_DIR$\HARDWARE\IIC.c</file>
+            <file>$PROJ_DIR$\Debug\Exe\capture&amp;pwm.ulp</file>
+            <file>$PROJ_DIR$\Debug\List\capture&amp;pwm.map</file>
+            <file>$PROJ_DIR$\HARDWARE\IIC.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\lnk430f5529.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\capture&amp;pwm.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\IIC.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\key.r43</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430xlsfn.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ULP430</name>
+                    <file> 17</file>
+                </tool>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 2 18</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\capture&amp;pwm.d43</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 18</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 20 0 4 10 25 27 21 26</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\HARDWARE\key.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 6</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 11 8 29 13</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 8 29 11 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\HARDWARE\timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 21</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 11 8 29 1</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 8 1 29 11</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\HARDWARE\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 11 8 29 3 13 1 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 8 11 19 13 3 1 29</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\HARDWARE\clk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 4</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 12</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 11 8 29 3</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 8 29 11 3</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\HARDWARE\IIC.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 10</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 19 11 8 29 15</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 8 29 15 11 19</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
